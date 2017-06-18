@@ -1,0 +1,625 @@
+*{
+	margin:0;
+	padding: 0;
+	border: 0;
+}
+html{
+	width:100%;
+    height: 100%;
+    font-family: helvetica-w01-roman,sans-serif;
+}
+body {
+    height: 100%;
+}
+#idioma{
+    float: right;
+}
+/*HEADER*/
+header{
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    z-index: 2;
+    border-bottom: 2px solid rgba(94,7,28,0.9);
+}
+.menu{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+.imgsalle{
+    height: 58px;
+    padding-left:40px; 
+}
+.red-social{
+    margin-top: 25px;
+    padding-left: 20px;
+}
+.red-social .fa{
+    color: #4F4F4F;
+}
+.container{
+    width: 1100px;
+    margin: 0 auto;
+    
+}
+.nav-bar-wrapper {
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+    padding-top: 25px;
+    padding-left: 70px;
+    
+}
+ul.nav-bar{
+    list-style-type: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    
+}
+li.nav-text{
+    text-align: center;
+    padding-left: 60px;
+}
+li.nav-text a {
+    text-decoration: none;
+    color: #333;
+}
+li.nav-text:hover{
+    color:  rgb(163, 34, 62);
+}
+li.nav-text:hover a{
+    color: rgb(163, 34, 62);
+}
+/* Menu-Burguer*/
+.nav-burger {
+    display: none;
+    position: fixed;
+    top: 30px;
+    right: 30px;
+    width: 31px;
+    height: 18px;
+    background-color: white;
+    cursor: pointer;
+
+}
+.burguer{
+	position: fixed;
+	top: 30px;
+	right: 30px;
+	width: 31px;
+	height:18px;
+	cursor: hand;
+}
+#menuDesplegable{
+	position: fixed;
+	top: 30px;
+	right: 30px;
+	width: 190px;
+	height: 160px;
+	background-color: white;
+	z-index: 100;
+	display: none;
+}
+.tanca{
+	float: right;
+	margin: 20px;
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 11pt;
+	cursor: pointer;
+
+}
+.listado-web{
+    position: absolute;
+}
+.links-web{
+    margin-top: 60px;
+    margin-left: 30px;
+    list-style: none;
+    text-decoration: none;
+}
+.nav-text-list:hover a{
+    color: rgba(94,7,28,0.9);
+
+}
+li.nav-text-list a{
+    text-decoration: none;
+    font-size: 15px;
+    color: #4F4F4F;
+}
+
+/* PRIMERA PAGINA (Inici)*/
+/* Section1 ----- Primera pagina*/
+#primera-seccion{
+    background-color: rgba(94,7,28,1);
+    max-width: 100%;
+    height: 100%;
+    padding-top: 100px;
+    text-align: center;
+    
+}
+.informacion{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    /*position: relative;*/
+    height: 80vh;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-flow: column wrap;
+        flex-flow: column wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    max-width: 100%;
+    flex-direction: column;
+}
+.mensaje1{
+    color:#fff;
+    text-align: center;
+    font-size: 15px;
+  
+}
+.campanya{
+    font-family: 'Amatic SC', cursive;
+    font-size: 45px;
+    letter-spacing: 0.07em;
+    
+}
+.mensaje1 h1 {
+    border-bottom: 2px solid;
+
+}
+.gota-sang{
+    height: 90px; /* IE 9 */
+    -webkit-transform: rotate(20deg); /* Safari */
+    transform: rotate(20deg);  /*Standard syntax */
+    
+}
+.campa {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 13px;
+}
+.linktwitter{
+    color: rgb(255,146,0);
+    text-decoration: none;
+    font-size: 25px;
+}
+.mensaje2{
+    color:white;
+    background-color: rgb(163, 34, 62);
+    padding: 20px 60px;
+    border-radius: 7px;
+    text-align: center;
+    align-items: center;
+    font-family: 'Amatic SC', cursive;
+    font-size: 20px;
+    line-height: 1;
+    box-sizing: border-box;
+    width: 100%;
+}
+.mensaje2 strong {
+    color: rgb(255,146,0);
+}
+
+/* Section2 --- Primera pagina*/
+#segunda-seccion{
+    max-width: 100%;
+    padding-top: 190px;
+}
+.encabezado-seccion2{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 30px 30px;
+
+}
+.titulo-encabezado-seccion2{
+    text-transform: uppercase;
+    font-size: 30px;
+    padding: 70px 20px;
+    letter-spacing: 10px;
+    font-family: 'Amatic SC', cursive;
+    color: black;
+    text-align: center;
+    border-bottom: 4px solid #5e071c;
+}
+.conjunto-circulos{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
+    padding-bottom: 40px;
+    max-width: 100%;
+}
+h2.lista{
+    font-size: 60px;
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+    color: black;
+}
+.cuadro-texto{
+    width: 80%;
+    -ms-flex-item-align: center;
+        align-self: center;
+    text-align: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    letter-spacing: 2px; 
+    font-size: 10px;  
+}
+.circulo{
+    width: 300px;
+    height: 300px;
+    background-color: #fff;
+    color: #333;
+    border-radius: 50%;
+    border: 4px solid #5e071c;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-transition:all 0.5s ease;
+    transition: all 0.5s ease;
+    position: relative;
+    margin-bottom: 10px;
+}
+.circulo1{
+    background-image: url("../img/texture1.jpg");
+    color: white;
+}
+.lista1{
+    color: white;
+    font-size: 60px;
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+}
+.circulo:hover {
+    background-color: rgb(163, 34, 62);
+    border-radius: 10%;
+}
+.circulo .medio {
+    opacity: 0;
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    color: white;
+    font-size: 14px;
+    width: 80%;
+}
+.circulo:hover .cuadro-texto {
+    opacity: 0;
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+}
+.circulo:hover .medio {
+    opacity: 1;
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+/* SEGUNDA PAGINA (perqueDonar)*/
+/*Seccion1 ----- Segunda pagina*/
+#perquedonar{
+    max-width: 100%;
+    background-color: rgba(255,255,255, 0.8);
+
+}
+.seccion1-perquedonar{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
+    /*height: 80vh;*/
+}
+.cuadro-medio-seccion1{
+    margin-top:120px;
+}
+.titulo-pagina2{
+    font-family: 'Amatic SC', cursive;
+    font-size: 3.5em;
+    letter-spacing: 0.07em;
+    line-height: 1.7;
+    float: right;
+
+}
+.icono-boton{
+    text-align: center;
+    align-items: center;
+}
+.icono-boton a{
+    color: black;
+
+   
+}
+/* Seccion2 ----- Segunda pagina */
+#seccion2-perquedonar{
+    max-width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    background-color: rgba(255,146,0,1);
+    -ms-flex-flow: column wrap;
+        flex-flow: column wrap;
+
+}
+.cuadro {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
+   
+    border: 2px solid;
+    padding: 5px;
+    border-bottom-right-radius: 12em;
+    margin-bottom: 20px;
+    
+}
+.primer-cuadro{
+    width: 50%;
+    padding: 50px 50px;
+    font-size: 1.4em;
+    font-family: 'Amatic SC', cursive;
+    max-width: 100%;
+}
+.primer-cuadro img{
+    max-width: 100%;
+    width: 400px;
+}
+.segundo-cuadro{
+    height: 250px;
+    width: 250px;
+    padding: 50px 50px;
+    font-size: 15px;
+    max-width: 100%;
+    left: 50%;
+    
+}
+.lista-cuadro{
+    max-width: 100%;
+}
+.img-cuadro{
+    -o-border-image: 2px transparent;
+       border-image: 2px transparent;
+    border-radius: 30px;
+}
+/* TERCERA PAGINA (puc donarne)*/
+/* Seccion1 ----- Tercera pagina */
+#jo-puc-donar{
+    max-width: 100%;
+}
+.text-jo-puc-donar{
+    margin-top: 150px;
+    font-family: 'Amatic SC', cursive;
+    font-size: 3.5em;
+    letter-spacing: 0.07em;
+    line-height: 1.7;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-flow: column nowrap;
+        flex-flow: column nowrap;
+    
+}
+.text-jo-puc{
+    text-align: center;
+}
+iframe{
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+/* Seccion2 ----- Tercera pagina */
+.seccion2-jo-puc-donar {
+    height: 100%;
+    max-height: 100%;
+}
+.jo-puc{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
+    height: 100%;
+    max-width: 100%;
+    margin-bottom: 40px;
+}
+article{
+    padding: 50px;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    
+    
+}
+article h1{
+    font-family:  'Amatic SC', cursive;
+    font-size: 25px;
+    text-align: center;
+    text-anchor: 2px;
+    border-bottom: 2px solid;
+    
+}
+article li {
+    text-align: left;
+    padding-top: 30px;
+}
+article p {
+    text-align: left;
+    padding-top: 30px;
+    line-height: 2;
+}
+.jo-puc1{
+    background-color: #f7f8f7;
+    margin-top: 20px;
+    max-width: 100%
+}
+.jo-puc2{
+    background-color: #f7f8f7;
+    border-left: 1px solid;
+    margin-top: 20px;
+    max-width: 100%;
+}
+
+/* CUARTA PAGINA (CONTACTE)*/
+/* Seccion1 ----- Cuarta pagina */
+#onsom{
+    background-color: black;
+    background-image: url("../img/map-image.png");
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+    margin: 0;
+    background-color: black;
+    font-family: monospace;
+}
+.titol-contacte {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
+    max-width: 100%;
+    font-family: 'Amatic SC', cursive;
+}
+
+.map-salle{
+    margin-top: 100px;
+    margin-bottom: 50px;   
+    border-radius: 7px;
+}
+.info-lugar-donacion{
+    background-color: rgba(255,255,255, 0.9);
+    padding: 10px 20px;
+    margin-top: 10px;
+    font-family: helvetica-w01-roman,helvetica-w02-roman,helvetica-lt-w10-roman,sans-serif;
+    border: 2px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+
+}
+/* PIE DE PAGINA*/
+#pie-pagina{
+    background-color: rgba(94,7,28,1);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.cuadro-pie{ 
+    display: -webkit-box; 
+    display: -ms-flexbox; 
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    max-width: 100%;
+}
+.info-banc-sang a{
+    margin-right: 20px;
+}
+.imgbanc2{
+    padding-top: 5px;
+}
+.linkregistre{
+    text-decoration: none;
+    color: white;
+    padding-left: 40px;
+}
+.imgbanc3{
+    height: 25px;
+}
+
+@media screen and (min-width: 768px) {
+    .jo-puc1{
+        width: 30%;
+    }
+    .jo-puc2{
+        width: 50%;
+    }
+    section {
+        padding-top: 25px;
+    }
+    .mensaje2 {
+        width: auto;
+        left: 50%;
+    }
+    #primera-seccion{
+        padding-top: 100px;
+    }
+    #segunda-seccion {
+        padding-top: 127px;
+    }
+    .campanya{
+        font-family: 'Amatic SC', cursive;
+        font-size: 50px;
+        letter-spacing: 0.07em;
+    }
+    .campa {
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 900px) {
+
+    ul.nav-bar {
+        display: none;
+        
+    }
+    .nav-burger {
+        display: block;
+    }
+}
+@media (max-width:980px){
+    form{
+        width: 100%;
+    }
+}
+@media screen and (min-width: 768px) {
+    .circulo2, .circulo5 {
+        margin-top: 45px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .informacion{
+        height: 100vh;
+    }
+}

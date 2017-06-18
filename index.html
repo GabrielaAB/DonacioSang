@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Banc de Sang</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <script type="text/javascript" src="functions.js"></script>
+</head>
+
+<body>
+    <header>
+        <select id="idioma" name="Idioma">
+            <option value="Català">Català</option>
+            <option value="Castellà">Castellà</option>
+            <option value="Anglès">Anglès</option>
+        </select>
+        <div class="menu container">
+            <a href="#"><img src="logo/logo-salle.png" alt="" class="imgsalle"></a>
+            <div class="red-social">
+                <a href="https://www.facebook.com/SalleGracia" class="linktfacebook" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+                <a href="https://twitter.com/LaSalleGracia" class="linktwitter2" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+            </div>
+            <nav class="nav-bar-wrapper">
+                <ul class="nav-bar">
+                    <li class="nav-text"><a href="#primera-seccion">Inici</a></li>
+                    <li class="nav-text"><a href="#perquedonar">Per que donar-ne?</a></li>
+                    <li class="nav-text"><a href="#jo-puc-donar">Puc donar-ne?</a></li>
+                    <li class="nav-text"><a href="#onsom">On som?</a></li>
+                </ul>
+            </nav>
+        </div>
+        <button class="nav-burger" onclick="obre()"><i class="fa fa-bars fa-3x" aria-hidden="true"></i></button>
+        <div id="menuDesplegable">
+            <div class="tanca" onclick="tanca()">x</div>
+            <div class="listado-web">
+                <ul class="links-web">
+                    <li class="nav-text-list"><a href="#primera-seccion">Inici</a></li>
+                    <li class="nav-text-list"><a href="#perquedonar">Per que donar-ne?</a></li>
+                    <li class="nav-text-list"><a href="#jo-puc-donar">Puc donar-ne?</a></li>
+                    <li class="nav-text-list"><a href="#onsom">On som?</a></li>
+
+                </ul>
+            </div>
+        </div>
+    </header>
+    <section id="primera-seccion">
+        <div class="informacion">
+            <div class="mensaje1">
+                <h1 class="campanya">gota a gota dones sang <img src="logo/logo-sang.png" alt="" class="gota-sang"></h1>
+                <p class="campa">NOSALTRES ET CONVIDEM A DONAR SANG AQUI A LA SALLE GRACIA</p>
+                <a href="https://twitter.com/hashtag/lsgdonavida" class="linktwitter" target="_blank">#lsgdonavida</a>
+
+            </div>
+            <div class="mensaje2">
+                <h1>Apunta't-ho a l'agenda!</h1>
+                <p>El dia <strong>3 de març</strong> entre 9 a 13 i 16 a 20</p>
+                <p>Lloc: Aules 001 i 002 de Col·legi <strong>La Salle Gràcia</strong>.</p>
+                <p>Pots convidar a amics i familiars o a qui vulguis!!</p>
+            </div>
+        </div>
+    </section>
+    <section id="segunda-seccion">
+        <div class="informacion2">
+            <div class="encabezado-seccion2">
+                <div class="titulo-encabezado-seccion2 container">
+                    <h2>Vols conèixer el procès!!</h2>
+                </div>
+            </div>
+        </div>
+        <div class="conjunto-circulos container">
+            <div class="circulo1 circulo">
+                <div class="cuadro-texto">
+                    <h2 class="lista1">1º</h2>
+                    <h2 class="texto-c">Informa't</h2>
+                </div>
+                <div class="medio">
+                    <p class="text-hover">El donant llegeix una informació genèrica sobre la donació.</p>
+                </div>
+            </div>
+            <div class="circulo2 circulo">
+                <div class="cuadro-texto">
+                    <h2 class="lista">2º</h2>
+                    <h2 class="texto-c">Omple el qüestionari mèdic…</h2>
+                </div>
+                <div class="medio">
+                    <p class="text-hover">… e identificació amb DNI o documentació equivalent. Aquest cuestionari pretén protegir tant la salut
+                        del donant com la del receptor .
+                        Tota la informació és confidencial.</p>
+                </div>
+            </div>
+            <div class="circulo1 circulo">
+                <div class="cuadro-texto">
+                    <h2 class="lista1">3º</h2>
+                    <h2 class="texto-c">Entrevista mèdica</h2>
+                </div>
+                <div class="medio">
+                    <p class="text-hover">Si el metge que realitza l’entrevista considera a la persona apta per donar sang, passarà a realitzar
+                        la primera donació. Immediatament, una infermera o voluntari de l’Associació li facilitarà el
+                        full de Consentiment Informat (qüestionari personal), mitjançant el qual se certifica la informació
+                        i comprensió -per part del donant- dels motius d’exclusió, considerant-se així que el donant.
+                        No s’inclou en cap dels supòsits descrits i autoritza a realitzar l’extracció i la utilització
+                        de la sang.</p>
+                </div>
+            </div>
+            <div class="circulo2 circulo">
+                <div class="cuadro-texto">
+                    <h2 class="lista">4º</h2>
+                    <h2 class="texto-c">Extracció (amb material estèril i d'un sol ús)</h2>
+                </div>
+                <div class="medio">
+                    <p class="text-hover">Aquesta sang s’emmagatzemarà en una bossa amb una subtància conservadora i anticoagulant, i s’extrauran
+                        uns tubs addicionals per completar l’analítica ordinària.</p>
+                </div>
+            </div>
+            <div class="circulo1 circulo">
+                <div class="cuadro-texto">
+                    <h2 class="lista1">5º</h2>
+                    <h2 class="texto-c">Refrigera't</h2>
+                </div>
+                <div class="medio">
+                    <p class="text-hover">Finalitzada l’extracció el donant passarà a la sala de recuperació, on se li oferirà un petit refrigeri
+                        (força líquids i algun aliment sòlid; pastes, entrepans...) abans d’incorporar-se a la rutina
+                        diària amb normalitat.</p>
+                </div>
+            </div>
+            <div class="circulo2 circulo">
+                <div class="cuadro-texto">
+                    <h1 class="text-hover"> Vine i colabora!</h1>
+                </div>
+                <div class="medio">
+                    <h1 class="text-hover"> Vine i colabora!</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="perquedonar">
+        <div class="seccion1-perquedonar">
+            <div class="cuadro-medio-seccion1">
+                <img src="img/thinking2.jpeg" alt="" class="thinking" height="150px">
+                <h1 class="titulo-pagina2">Per què cal que jo doni sang?</h1>
+                <div class="icono-boton">
+                    <a href="#seccion2-perquedonar"><i class="fa fa-arrow-circle-o-down fa-4x" aria-hidden="true"></i></a>
+                </div>
+            </div>
+        </div>
+        <div id="seccion2-perquedonar">
+            <div class="lista-cuadro1">
+                <div class="cuadro uno-seccion2 ">
+                    <div class="primer-cuadro">
+                        <h1>Per a tu tan sols és un moment, per a molts malalts pot suposar lavida</h1>
+                        <img src="img/donante.jpg" alt="" class="img-cuadro">
+                    </div>
+                    <div class="segundo-cuadro">
+                        <p>La donació de sang és un acte senzill, segur, gens dolorós, i assistit per professionals especialitzats
+                            en tot moment. Per a tu, no comporta cap risc, però, en canvi, per a malalts de tot el territori,
+                            pot suposar avançar en el seu procés de curació.</p>
+                    </div>
+                </div>
+                <div class="icono-boton">
+                    <a href="#lista-cuadro"><i class="fa fa-arrow-circle-o-down fa-4x" aria-hidden="true"></i></a>
+                </div>
+            </div>
+            <div id="lista-cuadro">
+                <div class="cuadro dos-seccion2">
+                    <div class="primer-cuadro">
+                        <h1>Les donacions altruistes, l'única font d'obtenció</h1>
+                        <img src="img/medico.jpg" alt="" class="img-cuadro">
+                    </div>
+                    <div class="segundo-cuadro">
+                        <p>Malgrat els avenços mèdics i tecnològics, ara per ara, la sang no es pot fabricar i tan sols
+                            es pot obtenir de les donacions altruistes de les persones.</p>
+                    </div>
+                </div>
+                <div class="icono-boton">
+                    <a href="#lista-cuadro2"><i class="fa fa-arrow-circle-o-down fa-4x" aria-hidden="true"></i></a>
+                </div>
+            </div>
+            <div id="lista-cuadro2">
+                <div class="cuadro tres-seccion2 ">
+                    <div class="primer-cuadro">
+                        <h1>Cada donació pot ajudar fins a tres malalts diferents</h1>
+                            <img src="img/donar_sangre.jpg" alt="" class="img-cuadro">
+                    </div>
+                    <div class="segundo-cuadro">
+                        <p>Com que de cada donació de sang s'obtenen tres components sanguinis diferents amb aplicacions
+                            pròpies, podem afirmar que podem ajudar fins a tres malalts diferents.</p>
+                    </div>
+                </div>
+                <div class="icono-boton">
+                    <a href="#lista-cuadro3"><i class="fa fa-arrow-circle-o-down fa-4x" aria-hidden="true"></i></a>
+                </div>
+            </div>
+            <div id="lista-cuadro3">
+                <div class="cuadro cuatro-seccion2">
+                    <div class="primer-cuadro">
+                        <h1>La sang i els seus components tenen una vida limitada</h1>
+                            <img src="img/sangre.jpg" alt="" class="img-cuadro">
+                    </div>
+                    <div class="segundo-cuadro">
+                        <p>Els concentrats d'hematies es conserven 42 dies. El plasma es conserva 1 any. Les plaquetes es
+                            conserven 5 dies</p>
+                    </div>
+                </div>
+                <div class="icono-boton">
+                    <a href="#lista-cuadro4"><i class="fa fa-arrow-circle-o-down fa-4x" aria-hidden="true"></i></a>
+                </div>
+            </div>
+            <div id="lista-cuadro4">
+                <div class="cuadro cinco-seccion2">
+                    <div class="primer-cuadro">
+                        <h1>L'ús és diari: cada dia es necessiten 1.000 donacions a Catalunya</h1>
+                            <img src="img/bus-donacio.jpg" alt="" class="img-cuadro">
+                    </div>
+                    <div class="segundo-cuadro">
+                        <p>La necessitat de sang és constant i, per tant, també ho han de ser les nostres donacions. Cada
+                            dia, tots els hospitals i clíniques de Catalunya necessiten sang o components sanguinis per
+                            atendre els seus malalts, ja que la majoria d'intervencions quirúrgiques i molts dels tractaments
+                            mèdics requereixen transfusions. La transfusió de sang o dels seus derivats s'ha convertit
+                            en una part imprescindible en l'actual assistència sanitària.
+                        </p>
+                    </div>
+                </div>
+                <div class="icono-boton">
+                    <a href="#lista-cuadro5"><i class="fa fa-arrow-circle-o-down fa-4x" aria-hidden="true"></i></a>
+                </div>
+            </div>
+            <div id="lista-cuadro5">
+                <div class="cuadro seis-seccion2 ">
+                    <div class="primer-cuadro">
+                        <h1>La donació, un acte quotidià</h1>
+                            <img src="img/pensativo.jpg" alt="" class="img-cuadro">
+                    </div>
+                    <div class="segundo-cuadro">
+                        <p>La donació no ha d'estar lligada a situacions de tragèdia o d'emergència sinó que ha de ser un
+                            acte quotidià i habitual a les nostres vides. Només donant sang amb regularitat, disposarem
+                            sempre de sang suficient i segura en estoc. Recordem que els homes poden donar fins a 4 vegades
+                            a l'any i les dones, 3, sempre i quan es respecti l'interval mínim de dos mesos entre donacions.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="jo-puc-donar">
+        <div class="seccion1-jo-puc-donar">
+            <div class="text-jo-puc-donar">
+                <h1 class="text-jo-puc">Jo puc donar sang?</h1>
+                <iframe width="860" height="515" src="https://www.youtube.com/embed/aUPDdT0r-Lo" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+        <div class="seccion2-jo-puc-donar">
+            <div class="jo-puc">
+                <div class="jo-puc1">
+                    <article>
+                        <h1>Pot donar sang qualsevol persona sana entre 18 i 65 anys que pesi més de 50 quilos.</h1>
+                        <p>Cal tenir aquest pes mínim, perquè en cada donació es recull una quantitat estàndard per a tots
+                            els donants (450 ml). Es recomana que les dones donin sang un màxim de tres vegades l'any
+                            i els homes un màxim de quatre, sempre respectant que, entre donació i donació, ha de passar
+                            un mínim de dos mesos. A diferència del que passa quan un es fa una anàlisi de sang, quan
+                            fem una donació, no cal estar en dejú. Fins i tot és recomanable haver fet un àpat normal.
+                            Tant per a la seguretat del donant com del receptor, es realitza una història clínica i una
+                            sèrie de proves abans de la donació. Després d'aquesta, s'analitza la sang. Has de saber
+                            que pots donar sang:</p>
+                    </article>
+                </div>
+                <div class="jo-puc2">
+                    <article>
+                        <h1>Has de saber que pots donar sang:</h1>
+                        <li>Si tens entre 18 i 65 anys i peses més de 50 quilos.</li>
+                        <li>Encara que hagis patit hepatitis abans dels 12 anys.</li>
+                        <li>Encara que no estiguis en dejú.</li>
+                        <li>Encara que tinguis el colesterol elevat.</li>
+                        <li>Encara que prenguis algun dels medicaments més freqüents.</li>
+                    </article>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+    <section id="onsom">
+        <div class="titol-contacte">
+            <!--<div class="formulari">
+                <form action="">
+                    <h2>Contacte</h2>
+                    <input type="text" name="Nom" placeholder="Nom*">
+                    <input type="text" name="Email" placeholder="Email*">
+                    <input type="text" name="Telèfon" placeholder="Telèfon*">
+                    <textarea name="Mensaje" placeholder="Missatge*"></textarea>
+                    <input type="button" value="Enviar" id="boton">
+                </form>
+                <h2 class="mes-informacio">Vols conèixer altres llocs per donar <br> 
+                <strong><a href="http://www.donarsang.gencat.cat/on-puc-donar-sang/" target="_blank"> Clica'm </a></strong>
+                </h2>
+            </div>-->
+            <div class="map-salle">
+                <div class="info-lugar-donacion">
+                    <img src="logo/logo-salle.png" alt="" height="50px">
+                    <p>El dia <strong>3 de març</strong> entre 9 a 13 i 16 a 20</p>
+                <p>Lloc: Aules 001 i 002 de Col·legi <strong>La Salle Gràcia</strong>.</p>
+                    <p>Plaça Nord, 14 08024 Barcelona <br> 93 292 21 18
+                    </p>
+                </div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11969.923007930422!2d2.1546876!3d41.4070816!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xceec0f483d3e1c61!2sCentro+Privado+de+Ense%C3%B1anza+la+Salle+Gracia!5e0!3m2!1ses!2ses!4v1486226581977"
+                    width="550" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+    <footer id="pie-pagina">
+        <div class="cuadro-pie container">
+            <div class="info-banc-sang">
+                <a href="http://donarsang.gencat.cat/es_index.html" class="linktbancsang" target="_blank"><img src="logo/bancsang-peu.png" alt="" class="imgbanc2"></a>
+                <a href="https://www.facebook.com/donarsang" class="linktfacebook" target="_blank"><img src="img/iconos-red-social/peu-facebook.png" alt="" class="imgbanc3"></a>
+                <a href="https://www.youtube.com/user/bancsang" class="linkyoutube" target="_blank"><img src="img/iconos-red-social/peu-youtube.png" alt="" class="imgbanc3"></a>
+                <a href="https://twitter.com/donarsang" class="linktwitter" target="_blank"><img src="img/iconos-red-social/peu-twitter.png" alt="" class="imgbanc3"></a>
+                <a href="https://www.flickr.com/photos/bancsang/" class="linkflickr" target="_blank"><img src="img/iconos-red-social/peu-flickr.png" alt="" class="imgbanc3"></a>
+                <a href="http://www.slideshare.net/bancsang/" class="linkslideshare" target="_blank"><img src="img/iconos-red-social/peu-slideshare.png" alt="" class="imgbanc3"></a>
+                <a href="http://salutweb.gencat.cat/ca/inici/" class="linktgencat" target="_blank"><img src="logo/gencat-peu.png" alt="" class="imgbanc2"></a>
+            </div>
+            <div class="registro">
+                <a href="http://www.donarsang.cat/media/upload/pdf//af_full_autoexclusiou_cat_v17_web_editora_7_24_1.pdf" class="linkregistre"
+                    target="_blank">Registra't aquí!</a>
+            </div>
+        </div>
+        </div>
+    </footer>
+</body>
+
+</html>
